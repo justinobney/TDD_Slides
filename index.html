@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+    <section>
+        <section>
+            <h3>
+                <br>
+            </h3>
+            <div>
+                <br>
+            </div>
+            <div>
+                <br>
+            </div>
+            <h1>t.d.d.&nbsp;</h1>
+            <h2>Test Driven Development</h2>
+        </section>
+        <section>
+            <h2>What is it?</h2>
+            <div>
+                <blockquote style="text-align: left;">
+                    <b>Test-driven development</b> (TDD) is a software development process that relies on the <u>repetition</u> of a very short development cycle: first the developer writes an (<u>initially failing</u>) automated test case that defines a desired improvement or new function, then produces the <u>minimum amount of code</u> to pass that test and finally <u>refactors</u> the new code to acceptable standards</blockquote>
+                </div>
+                <div>
+                    <br>
+                </div>
+            </section>
+            <section>
+                <h2>Red - GREEN - Repeat..</h2>
+                <div>
+                    <br>
+                </div>
+                <div>
+                    <img src="http://d2o0t5hpnwv4c1.cloudfront.net/767_testDrivenDev/images/tddcycle.jpg">
+                    <br>
+                </div>
+            </section>
+        </section>
+        <section>
+            <section>
+                <h2>That doesn't sound fun...</h2>
+                <div>Well.. It's Not..<br>
+                </div>
+                <div>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                </div>
+                <h2>However</h2>
+                <div>When we think of it <i>
+                    <font color="#00ff00">Executable Specification</font>
+                    </i>, it&nbsp;</div>
+                    <div>changes our perspective and allows us to have&nbsp;</div>
+                    <div>more <font color="#00ff33">confidence</font> that the code we are writing corresponds to the <i>thing </i>we actually want to produce.<br>
+                    </div>
+                </section>
+                <section>
+                    <h2>Executable Specification?</h2>
+                    <div>
+                        <br>
+                    </div>
+                    <div>But I already have a specification document</div>
+                    <div>(probably in Word written by the sales team)<br>
+                    </div>
+                    <div>
+                        <br>
+                    </div>
+                    <div>
+                        <br>
+                    </div>
+                    <div>
+                        <br>
+                    </div>
+                </section>
+            </section>
+            <section>
+                <h2>excuses not to test</h2>
+                <div>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                </div>
+                <div style="text-align: left;">
+                    <ul>
+                        <li class="fragment">I'll have to write 4x more code</li>
+                        <li class="fragment">It was just a tiny code change</li>
+                        <li class="fragment">I will test it once I complete this next thing</li>
+                        <li class="fragment">We don't have time</li>
+                        <li class="fragment">Big Bang Theory is on..</li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <section>
+                    <h2>Reasons to test</h2>
+                    <div style="text-align: left;">
+                        <br>
+                    </div>
+                    <div style="text-align: left;">
+                        <ul>
+                            <li class="fragment">It will make you a better developer</li>
+                            <li class="fragment">It will make your code better</li>
+                            <li class="fragment">Tests are always there once you write them</li>
+                            <li class="fragment">If the tests match the specifications, you can immediately know if the code does as well.</li>
+                            <li class="fragment">Ariane 5...</li>
+                        </ul>
+                    </div>
+                </section>
+                <section>
+                    <h2>ariane 5 Rocket</h2>
+                    <div>
+                        <iframe width="640" height="480" src="http://www.youtube.com/embed/kYUrqdUyEpI" frameborder="0" allowfullscreen=""></iframe>
+                    </div>
+                </section>
+                    <section>
+                        <h2>Ariane 5 Rocket</h2>
+                        <div style="text-align: left;">
+                            <br>
+                        </div>
+                        <div style="text-align: left;">
+                            <br>
+                        </div>
+                        <div style="text-align: left;">
+                            <ul>
+                                <li class="fragment">1996</li>
+                                <li class="fragment">10 Years of Development</li>
+                                <li class="fragment">40 seconds</li>
+                                <li class="fragment">$500 Million</li>
+                                <li class="fragment">64 bit TO 16 bit conversion failure</li>
+                            </ul>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h2>TDD - Kata</h2>
+                        <blockquote>Kata (型 or 形 literally: "form"?) is a Japanese word describing detailed choreographed patterns of movements practised either solo or in pairs</blockquote>
+                        <div>
+                            <br>
+                        </div>
+                        <p>The basic goal of kata is to preserve and</p>
+                        <p>transmit&nbsp;techniques. By practicing in a&nbsp;</p>
+                        <p>repetitive&nbsp;manner&nbsp;the learner develops the&nbsp;</p>
+                        <p>ability&nbsp;to execute&nbsp;those&nbsp;techniques and&nbsp;</p>
+                        <p>movements in a natural,&nbsp;reflex-like manner.</p>
+                        <div>
+                            <br>
+                        </div>
+                        <div>
+                            <br>
+                        </div>
+                    </section>
+                    <section>
+                        <h2>TDD - Kata</h2>
+                        <div>
+                            <br>
+                        </div>
+                        <div style="text-align: left;">
+                            <ul>
+                                <li>Try not to read ahead.</li>
+                                <li>Do one task at a time. The trick is to learn to work incrementally.<br>
+                                </li>
+                                <li>Make sure you only test for correct inputs. there is no need to test for invalid inputs for this kata<br>
+                                </li>
+                            </ul>
+                            <div>
+                                <br>
+                            </div>
+                            <ul>
+                                <li>String Calculator</li>
+                                <li>Bowling Game</li>
+                                <li>Roy Osherove</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section>
+                        <h2>Resources</h2>
+                        <div>
+                            <br>
+                        </div>
+                        <div>
+                            <a href="http://en.wikipedia.org/wiki/Test-driven_development">TDD - Wikipedia</a>
+                        </div>
+                        <div>
+                            <a href="http://osherove.com/tdd-kata-1/">Roy Osherove | TDD Kata</a>
+                        </div>
+                        <div>
+                            <a href="http://www.nunit.org/index.php?p=quickStart&amp;r=2.4.1">NUnit.org | Quick Start</a>
+                        </div>
+                        <div>
+                            <a href="http://dimecasts.net/Casts/CastDetails/1">Dimecast | NUnit Overview</a>
+                        </div>
+                        <div>
+                            <br>
+                        </div>
+                        <div>
+                            <a href="http://net.tutsplus.com/tutorials/php/the-newbies-guide-to-test-driven-development/?search_index=12">The Newbie’s Guide to Test-Driven Development</a>
+                            <br>
+                        </div>
+                        <div>(PHP, but still good)</div>
+                        <div>
+                            <br>
+                        </div>
+                    </section>
+                </section>
+            </div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
